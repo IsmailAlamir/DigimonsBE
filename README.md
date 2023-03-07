@@ -12,3 +12,4 @@ python manage.py runserver
 ```
 pip freeze > requirements.txt
 ```
+[link](https://digimons-be-git-db-ismailalamir.vercel.app/api/v1/digimons)
