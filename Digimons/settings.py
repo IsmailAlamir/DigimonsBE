@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h$o(dl=c^6kz7g8_ap(80nj5n=j*eb-p=^o7r_63s9o+v4%z_q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -82,8 +82,12 @@ WSGI_APPLICATION = 'Digimons.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'fpxnstqr',
+        'USER': 'fpxnstqr',
+        'PASSWORD': 'u6GLH2zTJDrr8pSbgg8le5Z5AqAWLr8o',
+        'HOST': 'trumpet.db.elephantsql.com',
+        'PORT': '',
     }
 }
 
